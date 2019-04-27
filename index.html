@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>NoteXD</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <form action="#" class="nform">
+            <div class="nform__group">
+              <input
+                type="text"
+                class="nform__input"
+                placeholder="your plan title"
+                id="name"
+                required
+              />
+              <label for="name" class="nform__label">YOUR PLAN TITLE</label>
+            </div>
+
+            <div class="nform__group">
+              <textarea
+                name="message"
+                placeholder="your plan details"
+                id=""
+                cols="30"
+                rows="10"
+                class="nform__input"
+              ></textarea>
+              <label for="name" class="nform__label"
+                >YOUR PLAN DETAILS TO PERFORM</label
+              >
+            </div>
+
+            <div class="nform__group">
+              <div class="row">
+                <button class="btn btn--blue btn--nav" type="submit">
+                  SAV
+                </button>
+
+                <button class="btn btn--pink btn--nav" type="reset">
+                  RES
+                </button>
+              </div>
+            </div>
+          </form>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            What is your main focus?
+          </h2>
+        </div>
+
+        <div class="grid">
+          <div class="row">
+            <div class="story">
+              <figure class="story__shape">
+                <img
+                  src="img/nat-8.jpg"
+                  alt="Person on a tour"
+                  class="story__img"
+                />
+                <figcaption class="story__caption">Janakh Pon</figcaption>
+              </figure>
+              <div class="story__text">
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                  I had the best week ever with my family
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aperiam, ipsum sapiente aspernatur libero repellat quis
+                  consequatur ducimus quam nisi exercitationem omnis earum qui.
+                  Aperiam, ipsum sapiente aspernatur libero repellat quis
+                  consequatur ducimus quam nisi exercitationem omnis earum qui.
+                </p>
+               
+                <div class="row">
+                   <hr>
+                 <a href="#" class="btn-text">&quest;</a>
+                  <label class="toggle">
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                    <span class="toggle-label">DONE</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+      </section>
+    </main>
+
+    <footer class="footer">
+
+      <div class="row">
+        <div class="col-1-of-2">
+          
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Jonas Schmedtmann</a> for
+            his online course
+            <a href="#" class="footer__link">Advanced CSS and Sass</a>.
+            Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
+            this webpage for both personal and commercial use, but NOT to claim
+            it as your own design. A credit to the original author, Jonas
+            Schmedtmann, is of course highly appreciated!
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
